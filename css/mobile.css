@@ -1,0 +1,33 @@
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(../images/bg.gif);
+        background-repeat: no-repeat;
+        background-size: 122%;
+    }
+    .box {
+    
+        width: 81%;
+        margin: 0px auto !important;
+        flex-direction: column;
+        position: absolute;
+        left: 9.5%;
+        right: 29.5%;
+        top: 270px;
+        color: white;
+        
+    }
+    .button {
+        width: 42% !important;
+        font-size: 15px !important;
+        background-color: #00aff0 !important;
+        margin: 10px;
+        border-radius: 50px;
+        padding: 10px 0px;
+        
+    }
+    p {
+        font-size: 25px;
+    }
+  }
